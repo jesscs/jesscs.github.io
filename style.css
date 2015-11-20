@@ -1,0 +1,60 @@
+#container{
+	width: 90%;
+	margin: 10px auto;
+	background-color: #fff;
+	color: #333;
+	border: 1px solid white;
+	line-height: 130%;
+	font-size: 120%;
+}
+
+#rightColumn{
+	float: right;
+	width: 20%;
+	height: 100%;
+	margin: 0;
+	padding: 1em;
+	max-width: 36em;
+}
+
+#rightColumn img {
+	margin: 0;
+    height: 100%;
+    width:100%;
+    padding: 1em;
+}
+
+a {
+    color: #3366FF;
+}
+
+a:visited {
+    color: #6600FF;
+}
+
+a:hover {
+    color: #3333FF;
+}
+
+#leftColumn{
+	height: 100%;
+	width: 80%;
+	margin-right: 200px;
+	padding: 1em;
+}
+
+#leftColumn h1 { 
+	margin: 1em 0 1em 0; 
+	color:#333366;
+}
+#rightColumn p { margin: 0 0 1em 1em; }
+
+
+
+
+
+
+
+
+
+
