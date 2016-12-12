@@ -64,8 +64,12 @@ p{
 	line-height: 1.35em;
 }
 
+#cvTab{
+	margin-top: 7px;
+}
+
 .tab-stuff{
-	padding-top: 37px;
+	padding-top: 25px;
 	padding-left:5vw;
 	padding-right:-5vw;
 }
