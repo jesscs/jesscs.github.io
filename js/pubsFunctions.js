@@ -3,7 +3,8 @@ var conferenceDict = {"CHI":
                         "CSCW":
                             "Proceedings of the ACM Conference on Computer Supported Cooperative Work",
                         "PervasiveHealth":
-                            "Proceedings of the International Conference on Pervasive Computing Technologies for Healthcare"}
+                            "Proceedings of the International Conference on Pervasive Computing Technologies for Healthcare",
+                        "ISRII": "The International Society for Research on Internet Interventions"}
 
 function sortYears(pubs){
     var sortedYears = [];
@@ -35,15 +36,27 @@ function getVenueAndLink(pub, year){
     else{
         venueString = pub["venue"] + " " + year;
     }
-    var linkString = "To Appear";
+    var linkString = "";
     if("link" in pub){
         linkString ='<a href="' + pub["link"] + '"><strong>LINK</strong></a>';
     }
-    return venueString + " || " + linkString;
+    if("pdf" in pub){
+        if(linkString.length>0){
+            linkString += " || " 
+        }
+        linkString +='<a href="website/pubs/' + pub["pdf"] + '.pdf"><strong>PDF</strong></a>';
+    }
+    if(linkString.length == 0 && !("nolink" in pub)){
+        linkString = "To Appear"
+    }
+    if(linkString.length > 0){
+        venueString += " || "
+    }
+    return venueString + linkString;
 }
     
 
-function addPub(contentDiv, pub){
+function addPub(contentDiv, pub, year){
     var pubDiv = contentDiv.append("div").attr("class","less-spacing");
     pubDiv.append("div").attr("class","title").text(pub["title"]);
     pubDiv.append("div").attr("class","authors").html(getAuthors(pub));
@@ -58,15 +71,18 @@ function addPub(contentDiv, pub){
 function addAllPubs(pubs){
     var contentDiv = d3.select("#pubsContent");
     var selectDiv = d3.select("#selectPubs");
-    var sortedYears = sortYears(pubs);
-    for (var y=0; y<sortedYears.length; y++) {
-        var year = sortedYears[y];
-        contentDiv.append("h4").text(year);
-        var pubsInYear = pubs[year];
-        for(var i=0; i<pubsInYear.length; i++){
-            var pub = pubsInYear[i];
-            addPub(contentDiv, pub);
-            if (pub["select"] === true) addPub(selectDiv, pub);
+    for (var pubType in pubs) {
+        contentDiv.append("h4").text(pubType);
+        var sortedYears = sortYears(pubs[pubType]);
+        for (var y=0; y<sortedYears.length; y++) {
+            var year = sortedYears[y];
+            contentDiv.append("h5").text(year);
+            var pubsInYear = pubs[pubType][year];
+            for(var i=0; i<pubsInYear.length; i++){
+                var pub = pubsInYear[i];
+                addPub(contentDiv, pub, year);
+                if (pub["select"] === true) addPub(selectDiv, pub);
+            }
         }
     }
 }

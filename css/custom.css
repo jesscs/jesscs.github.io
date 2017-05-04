@@ -15,6 +15,11 @@ h4 {
     margin-top: 0px;
 }
 
+h5 {
+    margin-top: 0px;
+    font-size: 110%;
+}
+
 .leftColumn{
     margin-right:none;
     /*margin-right: -20vw;*/

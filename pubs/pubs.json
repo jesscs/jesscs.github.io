@@ -1,152 +1,258 @@
-{
-  "2017": [
-    {
-      "title": "TummyTrials: A Feasibility Study of Using Self-Experimentation to Detect Individualized Food Triggers",
-      "authorsBefore": [
-        "Ravi Karkar"
-      ],
-      "authorsAfter": [
-        "Daniel Epstein",
-        "Laura Pina",
-        "Jeffrey Scofield",
-        "James Fogarty",
-        "Julie Kientz",
-        "Sean Munson",
-        "Roger Vilardaga",
-        "Jasmine Zia"
-      ],
-      "venue": "CHI",
-      "award": "Honorable Mention (Top 5%)",
-      "select": true
-    },
-    {
-      "title": "When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating",
-      "authorsBefore": [
-        "Chia-Fang Chung",
-        "Elena Agapie"
-      ],
-      "authorsAfter": [
-        "Sonali Mishra",
-        "James Fogarty",
-        "Sean Munson"
-      ],
-      "venue": "CHI",
-      "select": true
-    },
-    {
-      "title": "Examining Menstrual Tracking to Inform the Design of Personal Informatics Tools",
-      "authorsBefore": [
-        "Daniel Epstein",
-        "Nicole Lee",
-        "Jennifer Kang",
-        "Elena Agapie"
-      ],
-      "authorsAfter": [
-        "Laura Pina",
-        "James Fogarty",
-        "Julie Kientz",
-        "Sean Munson"
-      ],
-      "venue": "CHI",
-      "award": "Best Paper (Top 1%)",
-      "select": true
-    },
-    {
-      "title": "Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals",
-      "authorsBefore": [],
-      "authorsAfter": [
-        "Jane Hoffswell",
-        "Chia-Fang Chung",
-        "James Fogarty",
-        "Sean Munson",
-        "Jasmine Zia"
-      ],
-      "venue": "CSCW",
-      "link": "https://doi.org/10.1145/2998181.2998276",
-      "select": true
-    }
-  ],
-  "2016": [
-    {
-      "title": "The Feasibility, Usability, and Perceived Clinical Utility of Traditional Paper Food and Symptom Journals for Patients with Irritable Bowel Syndrome",
-      "authorsBefore": [
-        "Jasmine Zia",
-        "Chia-Fang Chung"
-      ],
-      "authorsAfter": [
-        "Sean Munson",
-        "Julie Kientz",
-        "James Fogarty",
-        "Elizabeth Bales",
-        "Jeanette Schenk",
-        "Margaret Heitkemper"
-      ],
-      "venue": "Neurogastroenterology and Motility",
-      "link": "http://doi.org/10.1111/nmo.12935",
-      "select": true
-    },
-    {
-      "title": "Feasibility and Usability Pilot Study of a Novel Irritable Bowel Syndrome Food and Gastrointestinal Symptom Journal Smartphone App",
-      "authorsBefore": [
-        "Jasmine Zia"
-      ],
-      "authorsAfter": [
-        "Sean Munson",
-        "James Fogarty",
-        "Linda Nguyen",
-        "Pamela Barney",
-        "Margaret Heitkemper",
-        "Uri Ladabaum"
-      ],
-      "venue": "Clinical and Translational Gastroenterology",
-      "link": "http://doi.org/10.1038/ctg.2016.9",
-      "select": true
-    }
-  ],
-  "2014": [
-    {
-      "title": "Is it a Question of Trust?: How Search Preferences Influence Forum Use",
-      "authorsBefore": [
-        "Jamie L. Crawford",
-        "Cheng Guo"
-      ],
-      "authorsAfter": [
-        "Rosa I. Arriaga",
-        "Jennifer Mankoff"
-      ],
-      "venue": "PervasiveHealth",
-      "link": "http://dl.acm.org/citation.cfm?id=2686910",
-      "select": false
-    }
-  ],
-  "2013": [
-    {
-      "title": "Rapid Suppression of Inhibitory Synaptic Transmission by Retinoic Acid",
-      "authorsBefore": [
-        "Federica Sarti",
-        "Zhenjie Zhang"
-      ],
-      "authorsAfter": [
-        "Lu Chen"
-      ],
-      "venue": "Journal of Neuroscience",
-      "link": "http://doi.org/10.1523/JNEUROSCI.1710-13.2013",
-      "select": false
-    }
-  ],
-  "2012": [
-    {
-      "title": "Conditional RARa Knockout Mice Reveal Acute Requirement for Retionic Acid and RARa in Homeostatic Plasticity",
-      "authorsBefore": [
-        "Federica Sarti"
-      ],
-      "authorsAfter": [
-        "Jason Aoto",
-        "Lu Chen"
-      ],
-      "venue": "Frontiers in Molecular Neuroscience",
-      "link": "http://doi.org/10.3389/fnmol.2012.00016",
-      "select": false
-    }
-  ]
+{ "Conference and Journal Publications": {
+    "2017": [
+      {
+        "title": "TummyTrials: A Feasibility Study of Using Self-Experimentation to Detect Individualized Food Triggers",
+        "authorsBefore": [
+          "Ravi Karkar"
+        ],
+        "authorsAfter": [
+          "Daniel Epstein",
+          "Laura Pina",
+          "Jeffrey Scofield",
+          "James Fogarty",
+          "Julie A. Kientz",
+          "Sean A. Munson",
+          "Roger Vilardaga",
+          "Jasmine Zia"
+        ],
+        "venue": "CHI",
+        "award": "Honorable Mention (Top 5%)",
+        "select": true
+      },
+      {
+        "title": "When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating",
+        "authorsBefore": [
+          "Chia-Fang Chung",
+          "Elena Agapie"
+        ],
+        "authorsAfter": [
+          "Sonali Mishra",
+          "James Fogarty",
+          "Sean A. Munson"
+        ],
+        "venue": "CHI",
+        "select": true
+      },
+      {
+        "title": "Examining Menstrual Tracking to Inform the Design of Personal Informatics Tools",
+        "authorsBefore": [
+          "Daniel Epstein",
+          "Nicole Lee",
+          "Jennifer Kang",
+          "Elena Agapie"
+        ],
+        "authorsAfter": [
+          "Laura Pina",
+          "James Fogarty",
+          "Julie A. Kientz",
+          "Sean A. Munson"
+        ],
+        "venue": "CHI",
+        "award": "Best Paper (Top 1%)",
+        "select": true
+      },
+      {
+        "title": "Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals",
+        "authorsBefore": [],
+        "authorsAfter": [
+          "Jane Hoffswell",
+          "Chia-Fang Chung",
+          "James Fogarty",
+          "Sean A. Munson",
+          "Jasmine Zia"
+        ],
+        "venue": "CSCW",
+        "link": "https://doi.org/10.1145/2998181.2998276",
+        "select": true
+      }
+    ],
+    "2016": [
+      {
+        "title": "The Feasibility, Usability, and Perceived Clinical Utility of Traditional Paper Food and Symptom Journals for Patients with Irritable Bowel Syndrome",
+        "authorsBefore": [
+          "Jasmine Zia",
+          "Chia-Fang Chung"
+        ],
+        "authorsAfter": [
+          "Sean A. Munson",
+          "Julie A. Kientz",
+          "James Fogarty",
+          "Elizabeth Bales",
+          "Jeanette Schenk",
+          "Margaret Heitkemper"
+        ],
+        "venue": "Neurogastroenterology and Motility",
+        "link": "http://doi.org/10.1111/nmo.12935",
+        "select": true
+      },
+      {
+        "title": "Feasibility and Usability Pilot Study of a Novel Irritable Bowel Syndrome Food and Gastrointestinal Symptom Journal Smartphone App",
+        "authorsBefore": [
+          "Jasmine Zia"
+        ],
+        "authorsAfter": [
+          "Sean A. Munson",
+          "James Fogarty",
+          "Linda Nguyen",
+          "Pamela Barney",
+          "Margaret Heitkemper",
+          "Uri Ladabaum"
+        ],
+        "venue": "Clinical and Translational Gastroenterology",
+        "link": "http://doi.org/10.1038/ctg.2016.9",
+        "select": true
+      }
+    ],
+    "2014": [
+      {
+        "title": "Is it a Question of Trust?: How Search Preferences Influence Forum Use",
+        "authorsBefore": [
+          "Jamie L. Crawford",
+          "Cheng Guo"
+        ],
+        "authorsAfter": [
+          "Rosa I. Arriaga",
+          "Jennifer Mankoff"
+        ],
+        "venue": "PervasiveHealth",
+        "link": "http://dl.acm.org/citation.cfm?id=2686910",
+        "select": false
+      }
+    ],
+    "2013": [
+      {
+        "title": "Rapid Suppression of Inhibitory Synaptic Transmission by Retinoic Acid",
+        "authorsBefore": [
+          "Federica Sarti",
+          "Zhenjie Zhang"
+        ],
+        "authorsAfter": [
+          "Lu Chen"
+        ],
+        "venue": "Journal of Neuroscience",
+        "link": "http://doi.org/10.1523/JNEUROSCI.1710-13.2013",
+        "select": false
+      }
+    ],
+    "2012": [
+      {
+        "title": "Conditional RARa Knockout Mice Reveal Acute Requirement for Retionic Acid and RARa in Homeostatic Plasticity",
+        "authorsBefore": [
+          "Federica Sarti"
+        ],
+        "authorsAfter": [
+          "Jason Aoto",
+          "Lu Chen"
+        ],
+        "venue": "Frontiers in Molecular Neuroscience",
+        "link": "http://doi.org/10.3389/fnmol.2012.00016",
+        "select": false
+      }
+    ]
+  },
+  "Workshop Papers and Posters": {
+    "2017": [
+      {
+        "title": "Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals",
+        "authorsBefore": [],
+        "authorsAfter": [
+          "Jane Hoffswell",
+          "Chia-Fang Chung",
+          "James Fogarty",
+          "Sean A. Munson",
+          "Jasmine Zia"
+        ],
+        "venue": "CHI Workshop: Workshop on Interactive Systems in Healthcare",
+        "pdf": "wish2017",
+        "select": false
+      },
+      {
+        "title": "Hypothesis Formation and Hypothesis Testing: Design Challenges in Self-Experimentation",
+        "authorsBefore": [
+          "Ravi Karkar"
+        ],
+        "authorsAfter": [
+          "James Fogarty", "Julie A. Kientz", "Sean A. Munson", "Jasmine Zia"
+        ],
+        "venue": "CHI Workshop: Digital Health & Self-Experimentation Workshop",
+        "pdf": "dh2017",
+        "select": false
+      },
+      {
+        "title": "Supporting Patient-Provider Communication and Relationships with Personal Informatics Data",
+        "authorsBefore": ["Chia-Fang Chung"],
+        "authorsAfter": [
+          "Jasmine Zia",
+          "James Fogarty",
+          "Julie A. Kientz",
+          "Sean A. Munson"
+        ],
+        "venue": "CHI Workshop: Workshop on Quantified Data and Social Relationships",
+        "pdf": "quantData2017",
+        "select": false
+      },
+      {
+        "title": "Examining Menstrual Tracking to Inform the Design of Personal Informatics Tools",
+        "authorsBefore": [
+          "Daniel Epstein",
+          "Nicole Lee",
+          "Jennifer Kang",
+          "Elena Agapie"
+        ],
+        "authorsAfter": [
+          "Laura Pina",
+          "James Fogarty",
+          "Julie A. Kientz",
+          "Sean A. Munson"
+        ],
+        "venue": "CHI Workshop: Hacking Women's Health",
+        "pdf": "hwh2017",
+        "select": false
+      }
+    ],
+    "2016":[
+      {
+        "title": "The Feasibility, Usability, and Perceived Clinical Utility of Traditional Paper Food and Symptom Journals for Patients with Irritable Bowel Syndrome",
+        "authorsBefore": [
+          "Jasmine Zia",
+          "Chia-Fang Chung"
+        ],
+        "authorsAfter": [
+          "Jeanette Schenk",
+          "Sean A. Munson",
+          "Julie A. Kientz",
+          "James Fogarty",
+          "Margaret Heitkemper"
+        ],
+        "venue": "The Federation of Neurogastroenterology & Motility",
+        "select": false,
+        "nolink": true 
+      },
+      {
+        "title": "Self Experimentation in Personalized Health",
+        "authorsBefore": [
+          "Ravi Karkar"
+        ],
+        "authorsAfter": [
+          "Jasmine Zia",
+          "Roger Vilardaga",
+          "Sonali Mishra",
+          "James Fogarty",
+          "Sean A. Munson",
+          "Julie A. Kientz"
+        ],
+        "venue": "ISRII",
+        "select": false,
+        "nolink": true
+      }
+    ]
+  }
+
 }
+
+
+
+
+
+
+
