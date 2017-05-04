@@ -30,7 +30,7 @@ function getVenueAndLink(pub, year){
     var venueString;
     if(pub["venue"] in conferenceDict){
         venueString = conferenceDict[pub["venue"]] +
-            "<strong> (" + pub["venue"] + " " + year + ") </strong>"
+            " (" + pub["venue"] + " " + year + ") "
     }
     else{
         venueString = pub["venue"] + " " + year;
@@ -41,12 +41,16 @@ function getVenueAndLink(pub, year){
     }
     return venueString + " || " + linkString;
 }
+    
 
 function addPub(contentDiv, pub){
     var pubDiv = contentDiv.append("div").attr("class","less-spacing");
     pubDiv.append("div").attr("class","title").text(pub["title"]);
     pubDiv.append("div").attr("class","authors").html(getAuthors(pub));
     pubDiv.append("div").attr("class","venue").html(getVenueAndLink(pub, year));
+    if("award" in pub){
+        pubDiv.append("div").attr("class","award").html(pub["award"]);
+    }
     contentDiv.append("br");
 }
 
@@ -70,7 +74,6 @@ function addAllPubs(pubs){
 // Load the publications
 function loadData() {
     d3.json("website/pubs/pubs.json", function(error, pubs) {
-        console.log(pubs);
         addAllPubs(pubs);
     });
 }

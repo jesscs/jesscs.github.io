@@ -1,7 +1,9 @@
 body {
     margin-top: 15px;
-    /*margin-left: -2vw;*/
-    /*margin-right: -2vw;*/
+/*    padding-left: 12vw;
+    padding-right: 12vw;*/
+   /* margin-right:-10vw;
+    margin-left:-10vw;*/
     /*font-family: 'Roboto Slab', Arial, serif; font-weight: 400; */
 }
 
@@ -13,8 +15,14 @@ h4 {
     margin-top: 0px;
 }
 
+.leftColumn{
+    margin-right:none;
+    /*margin-right: -20vw;*/
+}
+
 .rightColumn {
-    margin-left: -2vw;
+    margin-left: -4vw;
+    /*margin-left: -4vw;*/
 }
 
 .myname {
@@ -78,16 +86,26 @@ p {
 .venue {
     font-family: Arial, serif;
     font-weight: 100;
+    font-size: 95%;
 }
 
 .authors {
     font-family: Arial, serif;
     font-weight: 300;
+    font-size: 90%;
 }
 
 .title {
     font-family: Arial, serif;
     font-weight: bold;
+    font-size: 100%;
+}
+
+.award {
+    font-family: Arial, serif;
+    font-style: italic;
+    color: #5555A9;
+    font-size: 80%;
 }
 
 #selectPubs {

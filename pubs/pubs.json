@@ -16,6 +16,7 @@
         "Jasmine Zia"
       ],
       "venue": "CHI",
+      "award": "Honorable Mention (Top 5%)",
       "select": true
     },
     {
@@ -47,6 +48,7 @@
         "Sean Munson"
       ],
       "venue": "CHI",
+      "award": "Best Paper (Top 1%)",
       "select": true
     },
     {
@@ -60,6 +62,7 @@
         "Jasmine Zia"
       ],
       "venue": "CSCW",
+      "link": "https://doi.org/10.1145/2998181.2998276",
       "select": true
     }
   ],
