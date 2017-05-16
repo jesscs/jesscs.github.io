@@ -81,7 +81,7 @@ function addAllPubs(pubs){
             for(var i=0; i<pubsInYear.length; i++){
                 var pub = pubsInYear[i];
                 addPub(contentDiv, pub, year);
-                if (pub["select"] === true) addPub(selectDiv, pub);
+                if (pub["select"] === true) addPub(selectDiv, pub, year);
             }
         }
     }
