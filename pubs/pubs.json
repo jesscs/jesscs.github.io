@@ -17,7 +17,8 @@
         ],
         "venue": "CHI",
         "award": "Honorable Mention (Top 5%)",
-        "select": true
+        "select": true,
+        "link": "https://doi.org/10.1145/3025453.3025480"
       },
       {
         "title": "When Personal Tracking Becomes Social: Examining the Use of Instagram for Healthy Eating",
@@ -31,7 +32,8 @@
           "Sean A. Munson"
         ],
         "venue": "CHI",
-        "select": true
+        "select": true,
+        "link": "https://doi.org/10.1145/3025453.3025747"
       },
       {
         "title": "Examining Menstrual Tracking to Inform the Design of Personal Informatics Tools",
@@ -49,7 +51,8 @@
         ],
         "venue": "CHI",
         "award": "Best Paper (Top 1%)",
-        "select": true
+        "select": true,
+        "link": "https://doi.org/10.1145/3025453.3025635"
       },
       {
         "title": "Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals",
