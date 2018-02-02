@@ -27,32 +27,37 @@ function getAuthors(pub){
     return firstAuthors +  myName + lastAuthors;
 }
 
-function getVenueAndLink(pub, year){
-    var venueString;
+function getVenue(pub, year){
     if(pub["venue"] in conferenceDict){
         venueString = conferenceDict[pub["venue"]] +
-            " (" + pub["venue"] + " " + year + ") "
+            " (" + pub["venue"] + " " + year + ")"
     }
     else{
         venueString = pub["venue"] + " " + year;
     }
+    venueString += "<br/>"
+    return venueString;
+}
+
+function getLinks(pub){
     var linkString = "";
-    if("link" in pub){
-        linkString ='<a href="' + pub["link"] + '"><strong>LINK</strong></a>';
-    }
     if("pdf" in pub){
+        console.log(pub)
+        linkString +='<a href="website/pubs/pdfs/' + pub["pdf"] + '.pdf"><strong>PDF</strong></a>';
+    }
+    if("link" in pub){
         if(linkString.length>0){
             linkString += " || " 
         }
-        linkString +='<a href="website/pubs/' + pub["pdf"] + '.pdf"><strong>PDF</strong></a>';
+        linkString +='<a href="' + pub["link"] + '"><strong>LINK</strong></a>';
     }
-    if(linkString.length == 0 && !("nolink" in pub)){
-        linkString = "To Appear"
+    if("toAppear" in pub && pub["toAppear"] == true){
+        if(linkString.length>0){
+            linkString += " || " 
+        }
+        linkString += "In Press"
     }
-    if(linkString.length > 0){
-        venueString += " || "
-    }
-    return venueString + linkString;
+    return linkString
 }
     
 
@@ -60,10 +65,11 @@ function addPub(contentDiv, pub, year){
     var pubDiv = contentDiv.append("div").attr("class","less-spacing");
     pubDiv.append("div").attr("class","title").text(pub["title"]);
     pubDiv.append("div").attr("class","authors").html(getAuthors(pub));
-    pubDiv.append("div").attr("class","venue").html(getVenueAndLink(pub, year));
+    pubDiv.append("div").attr("class","venue").html(getVenue(pub, year));
     if("award" in pub){
         pubDiv.append("div").attr("class","award").html(pub["award"]);
     }
+    pubDiv.append("div").attr("class","venue").html(getLinks(pub));
     contentDiv.append("br");
 }
 

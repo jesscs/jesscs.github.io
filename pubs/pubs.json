@@ -1,4 +1,24 @@
 { "Conference and Journal Publications": {
+  "2018": [
+      {
+        "title": "Pocket Skills: A Conversational Mobile Web App to Support Dialectical Behavioral Therapy",
+        "authorsBefore": [
+        ],
+        "authorsAfter": [
+          "Chelsey Wilks",
+          "Kael Rowan",
+          "Arturo Toledo",
+          "Ann Paradiso",
+          "Mary Czerwinski",
+          "Gloria Mark",
+          "Marsha M. Linehan"
+        ],
+        "venue": "CHI",
+        "select": true,
+        "toAppear": true,
+        "pdf": "chi18"
+      }
+    ],
     "2017": [
       {
         "title": "TummyTrials: A Feasibility Study of Using Self-Experimentation to Detect Individualized Food Triggers",
@@ -18,6 +38,8 @@
         "venue": "CHI",
         "award": "Honorable Mention (Top 5%)",
         "select": true,
+        "toAppear": false,
+        "pdf": "chi17_tummytrials",
         "link": "https://doi.org/10.1145/3025453.3025480"
       },
       {
@@ -33,6 +55,8 @@
         ],
         "venue": "CHI",
         "select": true,
+        "toAppear": false,
+        "pdf": "chi17_instagram",
         "link": "https://doi.org/10.1145/3025453.3025747"
       },
       {
@@ -52,6 +76,8 @@
         "venue": "CHI",
         "award": "Best Paper (Top 1%)",
         "select": true,
+        "toAppear": false,
+        "pdf": "chi17_menstrual",
         "link": "https://doi.org/10.1145/3025453.3025635"
       },
       {
@@ -65,6 +91,7 @@
           "Jasmine Zia"
         ],
         "venue": "CSCW",
+        "pdf": "cscw17",
         "link": "https://doi.org/10.1145/2998181.2998276",
         "select": true
       }
@@ -86,6 +113,7 @@
         ],
         "venue": "Neurogastroenterology and Motility",
         "link": "http://doi.org/10.1111/nmo.12935",
+        "toAppear": false,
         "select": true
       },
       {
@@ -103,6 +131,7 @@
         ],
         "venue": "Clinical and Translational Gastroenterology",
         "link": "http://doi.org/10.1038/ctg.2016.9",
+        "toAppear": false,
         "select": true
       }
     ],
@@ -118,6 +147,7 @@
           "Jennifer Mankoff"
         ],
         "venue": "PervasiveHealth",
+        "pdf": "pervasivehealth14",
         "link": "http://dl.acm.org/citation.cfm?id=2686910",
         "select": false
       }
@@ -166,7 +196,7 @@
           "Jasmine Zia"
         ],
         "venue": "CHI Workshop: Workshop on Interactive Systems in Healthcare",
-        "pdf": "wish2017",
+        "pdf": "wish17",
         "select": false
       },
       {
@@ -178,7 +208,7 @@
           "James Fogarty", "Julie A. Kientz", "Sean A. Munson", "Jasmine Zia"
         ],
         "venue": "CHI Workshop: Digital Health & Self-Experimentation Workshop",
-        "pdf": "dh2017",
+        "pdf": "dh17",
         "select": false
       },
       {
@@ -191,7 +221,7 @@
           "Sean A. Munson"
         ],
         "venue": "CHI Workshop: Workshop on Quantified Data and Social Relationships",
-        "pdf": "quantData2017",
+        "pdf": "quantData17",
         "select": false
       },
       {
@@ -209,7 +239,7 @@
           "Sean A. Munson"
         ],
         "venue": "CHI Workshop: Hacking Women's Health",
-        "pdf": "hwh2017",
+        "pdf": "hwh17",
         "select": false
       }
     ],
@@ -228,8 +258,8 @@
           "Margaret Heitkemper"
         ],
         "venue": "The Federation of Neurogastroenterology & Motility",
-        "select": false,
-        "nolink": true 
+        "select": false
+
       },
       {
         "title": "Self Experimentation in Personalized Health",
@@ -245,8 +275,8 @@
           "Julie A. Kientz"
         ],
         "venue": "ISRII",
-        "select": false,
-        "nolink": true
+        "select": false
+
       }
     ]
   }

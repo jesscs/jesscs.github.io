@@ -178,9 +178,9 @@
         } else {
           // prefix the hashes so that the browser doesn't scroll down
           if (location_hash != undefined) {
-            window.location.hash = 'fndtn-' + location_hash.replace('#', '');
+            window.location.hash = location_hash.replace('#', '');
           } else {
-            window.location.hash = 'fndtn-' + target_hash.replace('#', '');
+            window.location.hash = target_hash.replace('#', '');
           }
         }
       }
