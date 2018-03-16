@@ -1,6 +1,23 @@
 { "Conference and Journal Publications": {
   "2018": [
       {
+        "title": "Examining Self-Tracking by People with Migraine: Goals, Needs, and Opportunities in a Chronic Health Condition",
+        "authorsBefore": [
+        ],
+        "authorsAfter": [
+          "Chia-Fang Chung",
+          "Daniel A. Epstein",
+          "Ravi Karkar",
+          "Adele Parsons",
+          "Natalia Murinova",
+          "James Fogarty",
+          "Sean A. Munson"
+        ],
+        "venue": "DIS",
+        "select": true,
+        "toAppear": true
+      },
+      {
         "title": "Pocket Skills: A Conversational Mobile Web App to Support Dialectical Behavioral Therapy",
         "authorsBefore": [
         ],
@@ -183,7 +200,29 @@
       }
     ]
   },
-  "Workshop Papers and Posters": {
+  "Workshop and Symposium Papers and Posters": {
+    "2018": [
+        {
+        "title": "Needs, Challenges, and Opportunities in Long-Term Tracking to Support Migraine Management",
+        "authorsBefore": [],
+        "authorsAfter": [
+            "Natalia Murinova",
+            "James Fogarty",
+            "Sean A. Munson"
+        ],
+        "venue": "CHI Workshop: A Short Workshop on Next Steps Towards Long Term Self Tracking",
+        "pdf": "longtermtracking18",
+        "select": false
+        },
+        {
+        "title": "Mobile Health and Personal Informatics in Mental Health and Migraine",
+        "authorsBefore": [],
+        "authorsAfter": [
+        ],
+        "venue": "CHI Symposium: Computing and Mental Health",
+        "select": false
+      }
+    ],
     "2017": [
       {
         "title": "Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals",

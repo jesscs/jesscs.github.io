@@ -4,7 +4,8 @@ var conferenceDict = {"CHI":
                             "Proceedings of the ACM Conference on Computer Supported Cooperative Work",
                         "PervasiveHealth":
                             "Proceedings of the International Conference on Pervasive Computing Technologies for Healthcare",
-                        "ISRII": "The International Society for Research on Internet Interventions"}
+                        "ISRII": "The International Society for Research on Internet Interventions",
+                        "DIS": "Proceedings of the ACM Conference of Designing Interactive Systems"}
 
 function sortYears(pubs){
     var sortedYears = [];
