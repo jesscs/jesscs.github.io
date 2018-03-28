@@ -15,7 +15,8 @@
         ],
         "venue": "DIS",
         "select": true,
-        "toAppear": true
+        "toAppear": true,
+        "pdf": "dis18"
       },
       {
         "title": "Pocket Skills: A Conversational Mobile Web App to Support Dialectical Behavioral Therapy",
