@@ -1,101 +1,71 @@
 <!doctype html>
 <html class="no-js" lang="en">
+  
   <head>
     <meta charset="utf-8" />
     <meta name="author" content="Jessica Schroeder">
-    <meta name="description" content="Hi, I am a Computer Science PhD student at the University of Washington (UW) in Seattle in the department of Computer Science &amp; Engineering.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jessica Schroeder</title>
-    <link rel="stylesheet" href="website/css/foundation.css" />
-    <link rel="stylesheet" href="website/foundation-icons/foundation-icons.css">
-    <link rel="stylesheet" href="website/css/custom.css" />
-    <link rel="shortcut icon" href="website/resources/icon.png">
-    <script src="website/js/vendor/modernizr.js"></script>
-    <script src = "website/js/d3.js"></script>
-    <script src = "website/js/d3Tip.js"></script>
-    <script src = "website/js/d3-jetpack.js"></script>
+    <link rel="stylesheet" href="website/css/main.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+    <script src = "website/js/libs/d3.js"></script>
+    <script src = "website/js/main.js"></script>
     <script src = "website/js/pubsFunctions.js"></script>
   </head>
 
 
- <body>
-     <!-- Left column -->
-  <div class="row">
-    <div class="large-3 columns rightColumn">
-      <h2 class="myname">Jessica Schroeder</h2>  
-       <!-- <hr/> -->
-      <br/>
-        <img  src="website/resources/photo.jpeg" class="photo">
-      <!-- <hr/> -->
-          <p class="contact-info">
-    jesscs[@]cs[.]washington[.]edu</p>
-    </div>
-    
-<div class="large-9 columns leftColumn">
+ <body onload="init()"  onhashchange="showTab()" >
+  <div class="container">
 
-  <ul class="tabs right" data-options="deep_linking:true; scroll_to_content:false;" data-tab="" role="tablist">
-
-    <li class="tab-title active" role="presentational">
-        <a controls="home" role="tab" href="#home"><i class="step fi-home size-15"></i> Home</a>
-    </li>
-    <li class="tab-title" role="presentational">
-        <a controls="pubs" role="tab"  href="#pubs"><i class="step fi-page-multiple size-15"></i> Publications</a>
-    </li>
-    <li class="tab-title" role="presentational">
-        <a controls="cv" role="tab"  href="#cv"><i class="step fi-page-filled size-15"></i> CV</a>
-    </li>
-  </ul>
-  <br/>
-  <!-- <hr/> -->
-
-
-
-  <div class="tabs-content">
-  <!-- home tab -->
-    <div class="content active" id="home" role="tabpanel">
-      <div class="row">
-        <div class="large-12 columns tab-stuff">
-          <p class="nospacing homebody">
-          Hello!  I'm a fourth year PhD student in <a href="http://www.cs.washington.edu/"> Computer Science and Engineering </a> at the University of Washington. I'm interested in health informatics---using technology to help people understand, improve, and maintain their health.  I'm advised by <a href="http://homes.cs.washington.edu/~jfogarty">James Fogarty</a> and <a href="http://www.smunson.com/"> Sean Munson.</a>  I received my undergraduate degree from <a href="http://www.pomona.edu/">Pomona College.</a></p>
+    <!-- ******************** Header *********************** -->
+    <div class="header">
+      <div class="title">
+        <div class="column">
+          <h1 class="name">Jessica Schroeder</h1>
+          <p> 
+            jesscs<span class="fa fa-at"></span>cs.washington.edu
+          </p>
         </div>
-        <div class="large-12 columns tab-stuff" id="selectPubs">
-          <h4>Select Publications:</h4>
+        <div class="column" id="menu">
+          <span class="menu selected" onclick="openTab(event, 'home')"><a href="#home">Home</a> <span class="fa fa-home"></span></span><br>
+          <span class="menu" onclick="openTab(event, 'pubs')"><a href="#pubs">Publications</a> <span class="fa fa-book"></span></span><br>
+          <span class="menu" onclick="openTab(event, 'cv')"><a href="#cv">CV</a> <span class="fa fa-file-alt"></span></span><br>
         </div>
       </div>
     </div>
 
-    <!-- publications tab -->
-    <div class="content" id="pubs" role="tabpanel">
-      <div class="row">
-        <div class="large-12 columns tab-stuff" id="pubsContent">
+
+    <div id="bodyContent">
+
+      <!-- ******************** Photo *********************** -->
+      <div id="photoDiv">
+          <img src="website/resources/photo.jpeg" alt="Jessica Schroeder Photo">
+      </div>
+
+      <!-- ******************** Home *********************** -->
+      <div class="tabContent" id="homeDiv" style="display:none">
+        <div id="about">
+          <p>
+            Hello!  I'm a fourth year PhD student at the <a href="http://www.cs.washington.edu/"> Paul G. Allen School of Computer Science &amp; Engineering </a> at the University of Washington. My research focuses on designing, developing, and evaluating novel methods and tools to help people and their health providers better understand and manage chronic health conditions.  I'm advised by <a href="http://homes.cs.washington.edu/~jfogarty">James Fogarty</a> and <a href="http://www.smunson.com/"> Sean Munson.</a><br />I received my undergraduate degree in computer science from <a href="http://www.pomona.edu/">Pomona College.</a>
+          </p>
+        </div>
+        <div id="selectPubs">
+          <h2>Select Publications:</h2>
         </div>
       </div>
-    </div>
 
-    <!-- cv tab -->
-    <div class="content" id="cv" role="tabpanel">
-      <div class="row">
-        <div class="large-12 columns tab-stuff" id = "cvTab">
-          <object data="website/resources/SchroederCV.pdf" type="application/pdf" width="100%" height="800px"> 
+      <!-- ******************** Publications *********************** -->
+      <div id="pubsDiv" class="tabContent" style="display:none">
+      </div>
+
+      <!-- ******************** CV *********************** -->
+      <div class="tabContent" id="cvDiv" style="display:none">
+          <object data="website/resources/SchroederCV.pdf" type="application/pdf" height="100%" width="100%"> 
             <p>It appears you don't have a PDF plugin for this browser. You can <a href="website/resources/SchroederCV.pdf">click here to download the PDF file.</a></p>  
           </object>
-        </div>
       </div>
     </div>
-  </div>
-
   </div> 
 
-</body>
-     <script src="website/js/vendor/jquery.js"></script>
-    <script src="website/js/foundation.min.js"></script>
-    <script src="website/js/foundation.tab.js"></script>
-    <script>
-        $(function () {
-            $(document).foundation();
-
-        });
-    </script>
   </body>
 </html>
   

@@ -43,7 +43,6 @@ function getVenue(pub, year){
 function getLinks(pub){
     var linkString = "";
     if("pdf" in pub){
-        console.log(pub)
         linkString +='<a href="website/pubs/pdfs/' + pub["pdf"] + '.pdf"><strong>PDF</strong></a>';
     }
     if("link" in pub){
@@ -76,7 +75,7 @@ function addPub(contentDiv, pub, year){
 
 
 function addAllPubs(pubs){
-    var contentDiv = d3.select("#pubsContent");
+    var contentDiv = d3.select("#pubsDiv");
     var selectDiv = d3.select("#selectPubs");
     for (var pubType in pubs) {
         contentDiv.append("h4").text(pubType);
