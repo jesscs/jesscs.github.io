@@ -1,5 +1,20 @@
 { "Conference and Journal Publications": {
   "2018": [
+    {
+        "title": "A Patient-Centered Proposal for Bayesian Analysis of Self-Experiments for Health",
+        "authorsBefore": [
+        ],
+        "authorsAfter": [
+          "Ravi Karkar",
+          "James Fogarty",
+          "Julie A. Kientz",
+          "Sean A. Munson",
+          "Matthew Kay"
+        ],
+        "venue": "Journal of Healthcare Informatics Research",
+        "select": true,
+        "toAppear": true
+      },
       {
         "title": "Examining Self-Tracking by People with Migraine: Goals, Needs, and Opportunities in a Chronic Health Condition",
         "authorsBefore": [
@@ -33,7 +48,8 @@
         ],
         "venue": "CHI",
         "select": true,
-        "toAppear": true,
+        "toAppear": false,
+        "link": "https://doi.org/10.1145/3173574.3173972",
         "pdf": "chi18"
       }
     ],

@@ -55,7 +55,7 @@ function getLinks(pub){
         if(linkString.length>0){
             linkString += " || " 
         }
-        linkString += "In Press"
+        linkString += "To Appear"
     }
     return linkString
 }
