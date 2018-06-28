@@ -31,8 +31,10 @@
         ],
         "venue": "DIS",
         "select": true,
-        "toAppear": true,
-        "pdf": "dis18"
+        "toAppear": false,
+        "award": "Honorable Mention",
+        "pdf": "dis18",
+        "link": "https://doi.org/10.1145/3196709.3196738"
       },
       {
         "title": "Pocket Skills: A Conversational Mobile Web App to Support Dialectical Behavioral Therapy",
@@ -71,7 +73,7 @@
           "Jasmine Zia"
         ],
         "venue": "CHI",
-        "award": "Honorable Mention (Top 5%)",
+        "award": "Honorable Mention",
         "select": true,
         "toAppear": false,
         "pdf": "chi17_tummytrials",
@@ -109,7 +111,7 @@
           "Sean A. Munson"
         ],
         "venue": "CHI",
-        "award": "Best Paper (Top 1%)",
+        "award": "Best Paper",
         "select": true,
         "toAppear": false,
         "pdf": "chi17_menstrual",
