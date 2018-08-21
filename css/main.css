@@ -137,14 +137,14 @@ h4{
 #selectPubs{
     font-family: Arial, serif;
     font-size: 0.9em;
-    overflow: scroll;
+    /*overflow: scroll;*/
 }
 
 
 #pubs{
   margin:0;
   display: inline-block;
-  overflow: scroll;
+  /*overflow: scroll;*/
 }
 
 #cv {
