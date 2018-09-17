@@ -8,7 +8,6 @@ function init() {
 }
 
 function openTab(evt, tab) {
-    console.log(tab)
   location.hash = '#' + tab;
   showTab();
 }
@@ -18,7 +17,7 @@ function showTab(){
 
 	var tabs = document.getElementsByClassName('menu');
 	for(var i = 0; i < tabs.length; i++) {
-		if(nameToTab[tabs[i].innerText.trim()] === tab) {
+		if(nameToTab[tabs[i].textContent.trim()] === tab) {
 			tabs[i].className = 'menu selected';
 		} else {
 			tabs[i].className = 'menu';
