@@ -13,7 +13,8 @@
         ],
         "venue": "Journal of Healthcare Informatics Research",
         "select": true,
-        "toAppear": true, 
+        "toAppear": false, 
+        "link": "http://doi.org/10.1007/s41666-018-0033-x",
         "pdf": "jhir18"
       },
       {
