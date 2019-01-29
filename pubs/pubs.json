@@ -1,4 +1,23 @@
 { "Conference and Journal Publications": {
+  "2019": [
+    {
+        "title": "Identifying and Planning for Individualized Change: Patient-Provider Collaboration Using Lightweight Food Diaries in Healthy Eating and Irritable Bowel Syndrome",
+        "authorsBefore": [
+          "Chia-Fang Chung",
+          "Qiaosi Wang",
+        ],
+        "authorsAfter": [
+          "Allison Cole",
+          "Jasmine Zia",
+          "James Fogarty",
+          "Sean A. Munson",
+        ],
+        "venue": "UbiComp",
+        "select": true,
+        "toAppear": true, 
+        "pdf": "ubicomp19"
+      }
+    ], 
   "2018": [
     {
         "title": "A Patient-Centered Proposal for Bayesian Analysis of Self-Experiments for Health",
