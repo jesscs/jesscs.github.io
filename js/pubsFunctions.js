@@ -1,12 +1,18 @@
-var conferenceDict = {"CHI":
-                            "Proceedings of the ACM Conference on Human Factors in Computing Systems",
-                        "CSCW":
-                            "Proceedings of the ACM Conference on Computer Supported Cooperative Work",
-                        "PervasiveHealth":
-                            "Proceedings of the International Conference on Pervasive Computing Technologies for Healthcare",
-                        "ISRII": "The International Society for Research on Internet Interventions",
-                        "DIS": "Proceedings of the ACM Conference on Designing Interactive Systems",
-                        "UbiComp": "Proceedings of the ACM International Joint Conference on Pervasive and Ubiquitous Computing"}
+var conferenceDict = 
+    {"CHI":
+        "Proceedings of the ACM Conference on Human Factors in Computing Systems",
+    "CSCW":
+        "Proceedings of the ACM Conference on Computer Supported Cooperative Work",
+    "PervasiveHealth":
+        "Proceedings of the International Conference "+
+                            "on Pervasive Computing Technologies for Healthcare",
+    "ISRII":
+        "The International Society for Research on Internet Interventions",
+    "DIS":
+        "Proceedings of the ACM Conference on Designing Interactive Systems",
+    "UbiComp": 
+        "Proceedings of the ACM International Joint Conference "+
+                            "on Pervasive and Ubiquitous Computing"}
 
 function sortYears(pubs){
     var sortedYears = [];
@@ -24,8 +30,12 @@ function getAuthors(pub){
     var myName = "<i>Jessica Schroeder</i>";
     var firstAuthors = "";
     var lastAuthors = "";
-    if (pub["authorsBefore"].length>0) firstAuthors = pub["authorsBefore"].join(", ") + ", ";
-    if (pub["authorsAfter"].length>0) lastAuthors = ", " + pub["authorsAfter"].join(", ");
+    if (pub["authorsBefore"].length>0){
+        firstAuthors = pub["authorsBefore"].join(", ") + ", ";
+    }
+    if (pub["authorsAfter"].length>0){
+        lastAuthors = ", " + pub["authorsAfter"].join(", ");
+    }
     return firstAuthors +  myName + lastAuthors;
 }
 
@@ -44,7 +54,8 @@ function getVenue(pub, year){
 function getLinks(pub){
     var linkString = "";
     if("pdf" in pub){
-        linkString +='<a href="website/pubs/pdfs/' + pub["pdf"] + '.pdf"><strong>PDF</strong></a>';
+        linkString +='<a href="website/pubs/pdfs/' +
+            pub["pdf"] + '.pdf"><strong>PDF</strong></a>';
     }
     if("link" in pub){
         if(linkString.length>0){
@@ -78,8 +89,15 @@ function addPub(contentDiv, pub, year){
 function addAllPubs(pubs){
     var contentDiv = d3.select("#pubsDiv");
     var selectDiv = d3.select("#selectPubs");
+    var first = true;
     for (var pubType in pubs) {
-        contentDiv.append("h4").text(pubType);
+        if(first){
+            contentDiv.append("h4").attr({'class':'first'}).text(pubType);
+            first=false;
+        }
+        else{
+            contentDiv.append("h4").text(pubType);
+        }
         var sortedYears = sortYears(pubs[pubType]);
         for (var y=0; y<sortedYears.length; y++) {
             var year = sortedYears[y];

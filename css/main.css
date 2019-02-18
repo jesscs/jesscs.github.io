@@ -3,17 +3,69 @@ html, body {
   margin: 0
 }
 
+.iconList{
+  padding-bottom:0.2em;
+}
+
+.h5{
+  float:left;
+}
+
+.projectPic{
+  /*float:right;*/
+  height: 8vh;
+  padding-left:1vw;
+}
+
+.iconPar{
+  padding-top:1%;
+  padding-left: 11vw;
+}
+
+#photoDiv {
+  padding-left:3.5%;
+  padding-top:1%;
+  /*margin-top:0.5em;*/
+  padding-right:2%;
+  flex: none;
+  max-width: 15%;
+}
+
+#links{
+  padding-top: 0.2em;
+}
+
 .tabContent{
     flex:1;
     padding-left:1%;
     padding-right: 3%;
-    padding-top: 0;
     padding-top:1%;
+    /*margin-top:0.5em;*/
+
 }
+
+.first {
+  font-weight:200;
+    margin-top:-0.15em;
+    margin-bottom:2%;
+    padding-top:0;
+    font-size: 150%;
+    font-family: Arial, serif;
+}
+
+.icon{
+  width: 10vw;
+  float:left;
+}
+
+.last{
+  padding-bottom: 1em;
+}
+
 
 h4{
   font-weight:200;
-    margin-top: 0;
+    margin-top:3em;
     margin-bottom:2%;
     padding-top:0;
     font-size: 150%;
@@ -40,7 +92,7 @@ h4{
 
 .header {
   width: 100%;
-  height: 15%;
+  max-height: 17%;
   /*overflow: hidden;*/
   flex: 0 0 auto;
   margin-top:0;
@@ -58,6 +110,10 @@ h4{
   margin: 14px 0 0 25px;
   font-size: 250%;
   font-family: sans-serif;
+}
+
+.list{
+  margin-left: 1.5em;
 }
 
 .header .title p {
@@ -118,13 +174,7 @@ h4{
     width: 100%;
 }
 
-#photoDiv {
-  padding-left:3.5%;
-  padding-top:1%;
-  padding-right:2%;
-  flex: none;
-  max-width: 15%;
-}
+
 
 #bodyContent{
   padding: 0;
@@ -154,7 +204,7 @@ h4{
 }
 
 #about p{ 
-  margin:0;
+  margin-top:-0.15em;
   padding-right:3%;
   font-size: 14pt;
 }

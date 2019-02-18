@@ -1,6 +1,8 @@
-// Lovingly stolen from Jane Hoffswell (https://homes.cs.washington.edu/~jhoffs/)
+// Lovingly stolen from Jane Hoffswell
+//    (https://homes.cs.washington.edu/~jhoffs/)
 
-var nameToTab = {"Publications": "pubs", "Home": "home", "CV": "cv"}
+var nameToTab = {"Publications": "pubs", "Home": "home", "CV": "cv",
+                "Research": "research"}
 
 function init() {
   if(location.hash == '') location.hash = '#' + 'home'; 
