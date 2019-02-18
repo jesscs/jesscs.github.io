@@ -13,7 +13,8 @@ html, body {
 
 .projectPic{
   /*float:right;*/
-  height: 8vh;
+  max-height: 8vh;
+  max-width: 10vw;
   padding-left:1vw;
 }
 
