@@ -19,7 +19,7 @@
     <!-- ******************** Header *********************** -->
     <div class="header">
       <div class="title">
-        <div class="column">
+        <div class="column left-column">
           <h1 class="name">Jessica Schroeder</h1>
           <p> 
             jesscs<span class="fa fa-at"></span>cs.washington.edu
@@ -29,10 +29,10 @@
 
         </div>
         <div class="column" id="menu">
-          <span class="menu selected" onclick="openTab(event, 'home')"><a href="#home">Home</a> <span class="fa fa-home"></span></span><br>
-          <span class="menu" onclick="openTab(event, 'research')"><a href="#research">Research</a> <span class="fa fa-book"></span></span><br>
-          <span class="menu" onclick="openTab(event, 'pubs')"><a href="#pubs">Publications</a> <span class="fa fa-file-alt"></span></span><br>
-          <span class="menu" onclick="openTab(event, 'cv')"><a href="#cv">CV</a> <span class="fa fa-graduation-cap"></span></span><br>
+          <div class="menu selected" onclick="openTab(event, 'home')"><a href="#home">Home</a> <span class="fa fa-home"></span></div>
+          <div class="menu" onclick="openTab(event, 'research')"><a href="#research">Research</a> <span class="fa fa-book"></span></div>
+          <div class="menu" onclick="openTab(event, 'pubs')"><a href="#pubs">Publications</a> <span class="fa fa-file-alt"></span></div>
+          <div class="menu" onclick="openTab(event, 'cv')"><a href="#cv">CV</a> <span class="fa fa-graduation-cap"></span></div>
         </div>
       </div>
     </div>
@@ -49,10 +49,14 @@
       <div class="tabContent" id="homeDiv" style="display:none">
         <div id="about">
           <p>
-            Hello!  I'm a fifth year PhD student advised by <a href="http://homes.cs.washington.edu/~jfogarty">James Fogarty</a> and <a href="http://www.smunson.com/">Sean Munson</a> at the <a href="http://www.cs.washington.edu/"> Paul G. Allen School of Computer Science &amp; Engineering</a>. I&nbsp;received my undergraduate degree in computer science from <a href="http://www.pomona.edu/">Pomona College.</a><br/><br/>
+            Hello!  I'm a fifth year PhD student advised by <a href="http://homes.cs.washington.edu/~jfogarty">James Fogarty</a> and <a href="http://www.smunson.com/">Sean Munson</a> at the <a href="http://www.cs.washington.edu/"> Paul G. Allen School of Computer Science &amp; Engineering</a>. I&nbsp;received my undergraduate degree in computer science from <a href="http://www.pomona.edu/">Pomona College.</a>
+          </p>
 
-            My research focuses on supporting people and providers in expressing and pursuing their multiple, distinct, and evolving goals to help them overcome barriers to personalized management for chronic health conditions. I have investigated three health contexts characterized by complex, chronic symptoms that require personalized interventions to address: irritable bowel syndrome, mental health disorders, and migraine. To examine supporting chronic condition management, I first focus on understanding the unique challenges within that condition. I then design, develop, and evaluate novel methods and tools to help people and their health providers better understand and manage that condition.<br/><br/>
+          <p>
+            My research focuses on supporting people and providers in expressing and pursuing their multiple, distinct, and evolving goals to help them overcome barriers to personalized management for chronic health conditions. I have investigated three health contexts characterized by complex, chronic symptoms that require personalized interventions to address: irritable bowel syndrome, mental health disorders, and migraine. To examine supporting chronic condition management, I first focus on understanding the unique challenges within that condition. I then design, develop, and evaluate novel methods and tools to help people and their health providers better understand and manage that condition.
+          </p>
 
+          <p>
             For more details on my research approach and projects, please <span onclick="openTab(event, 'research')"><a href="#research">see my research page</a></span>.
           </p>
         </div>
@@ -65,99 +69,103 @@
       <!-- ******************** Research *********************** -->
       <div id="researchDiv" class="tabContent" style="display:none">
 
-        <h4 class='first'>Research Approach</h4>
+        <h2 class='firstResearch'>Research Approach</h2>
 
         <p>My research focuses on helping individuals and their health providers better understand and manage their health. My general approach includes:</p>
         
         <div class="iconList">
           <img class="icon" src="website/resources/formative.png" alt="Formative Work Icon">
           <p class='iconPar'>
-            <b>Formative Work</b> through surveys and interviews to identify needs, challenges, and opportunities;
-          </p>
-          </div>
-
-          <div class="iconList">
-            <img class="icon" src="website/resources/implementation.png" alt="Implementation Icon">
-            <p class='iconPar'>
-              <b>Iterative Design and Development</b> through prototypes and implementations to create tools that support people and providers;
-            </p>
-          </div>
-
-          <div class="iconList">
-            <img class="icon" src="website/resources/evaluation.png" alt="Evaluation Icon">
-            <p class='iconPar'>
-              <b>Evaluations</b> through deployments with pre- and post-interviews to examine how those tools could be used.
-            </p>
-          </div>
-        
-        <p>I have applied this approach to myriad health contexts, consulting and collaborating with health professionals throughout the process to draw on existing expertise within each context.</p>
-
-        <h4>Current Research</h4>
-        <h5>
-          Migraine: Supporting Goal-Directed Self-Tracking
-          <img class="projectPic" src="website/resources/migraine.png" alt="Migraine Icon">
-        </h5>
-
-
-        <p>My current research focuses on supporting self-tracking by people with migraine.  People often track migraine-related data for a number of different goals (e.g., identifying migraine triggers, predicting future migraines, sharing data with health providers), but current tools do not explicitly support the goals people want to pursue.  I am currently investigating <b>goal-directed self-tracking</b>, a new approach for supporting every stage of self-tracking.  I aim to help people: track <i>exactly and only</i> what they need to achieve their goals; appropriately interpret and act on their data with respect to those goals; and share their data with their health providers. This work is being done in collaboration with the UW Headache Clinic.
-        </p>
-
-        My investigation of goal-directed self-tracking has involved a number of projects, in which I:
-        <div class="list">
-          <p>
-            conducted surveys and interviews with people with migraine and health providers to investigate challenges, needs, and opportunities in migraine tracking and identify specific categories of migraine tracking goals people often want to pursue (<a href="https://doi.org/10.1145/3196709.3196738">see our paper</a>);
-          </p>
-          <p>
-            created a paper prototype and used it in interviews with people with migraine and health providers to investigate how goal-directed self-tracking could help support people in tracking <i>exactly and only</i> what they need to track to achieve their goals (paper in submission);
-          </p>
-          <p>
-            am currently implementing my goal-directed self-tracking tool to examine how it could support all stages of self-tracking. 
+            <b>Formative Work</b> through surveys and interviews to identify needs, challenges, and opportunities
           </p>
         </div>
 
-        <h4>Past Research</h4>
+        <div class="iconList">
+          <img class="icon" src="website/resources/implementation.png" alt="Implementation Icon">
+          <p class='iconPar'>
+            <b>Iterative Design and Development</b> through prototypes and implementations to create tools that support people and providers
+          </p>
+        </div>
+
+        <div class="iconList">
+          <img class="icon" src="website/resources/evaluation.png" alt="Evaluation Icon">
+          <p class='iconPar'>
+            <b>Evaluations</b> through deployments with pre- and post-interviews to examine how those tools could be used
+          </p>
+        </div>
+        
+        <p>I have applied this approach to myriad health contexts, consulting and collaborating with health professionals throughout the process to draw on existing expertise within each context.</p>
+
+        <h2>Current Research</h2>
+        <h3>
+          Migraine: Supporting Goal-Directed Self-Tracking
+          <img class="projectPic" src="website/resources/migraine.png" alt="Migraine Icon">
+        </h3>
 
 
-        <h5>
+        <p>
+          My current research focuses on supporting self-tracking by people with migraine.  People often track migraine-related data for a number of different goals (e.g., identifying migraine triggers, predicting future migraines, sharing data with health providers), but current tools do not explicitly support the goals people want to pursue.  I am currently investigating <b>goal-directed self-tracking</b>, a new approach for supporting every stage of self-tracking.  I aim to help people: track <i>exactly and only</i> what they need to achieve their goals; appropriately interpret and act on their data with respect to those goals; and share their data with their health providers. This work is being done in collaboration with the UW Headache Clinic.
+        </p>
+
+        <p>
+          My investigation of goal-directed self-tracking has involved a number of projects:
+        </p>
+
+        <ul class="fa-ul">
+          <li class="list"><span class="fa-li"><i class="fas fa-angle-right"></i></span>
+            I conducted surveys and interviews with people with migraine and health providers to investigate challenges, needs, and opportunities in migraine tracking and identify specific categories of migraine tracking goals people often want to pursue (<a href="https://doi.org/10.1145/3196709.3196738">see our paper</a>)
+          </li>
+          <li class="list"><span class="fa-li" ><i class="fas fa-angle-right"></i></span>
+            I created a paper prototype and used it in interviews with people with migraine and health providers to investigate how goal-directed self-tracking could help support people in tracking <i>exactly and only</i> what they need to track to achieve their goals (paper in submission)
+          </li>
+          <li class="list"><span class="fa-li" ><i class="fas fa-angle-right"></i></span>
+            I am currently implementing my goal-directed self-tracking tool to examine how it could support all stages of self-tracking
+          </li>
+        </ul>
+
+        <h2>Past Research</h2>
+
+
+        <h3>
 
           Mental Health: Supporting Dialectical Behavioral Therapy
           <img class="projectPic" src="website/resources/ps.png" alt="Pocket Skills Icon">
-        </h5>
+        </h3>
 
 
 
-        <p>As an intern project at Microsoft Research, I worked with Mary Czerwinski to help develop and evaluate Pocket Skills, an app designed to provide holistic support for Dialectical Behavioral Therapy (DBT).  DBT is a type of behavioral therapy designed to treat complex, difficult-to-treat disorders and suicidal ideation.  We aimed to support people in learning, practicing, and implementing DBT skills to help them solve problems, maintain relationships, and navigate negative events and emotions. I joined the project after some initial formative work and development had already taken place, collaborating with HCI experts, clinical psychologists, and mobile app designers and developers to help adapt some skills from the DBT skills training manual and workbooks into app content.  I then conducted a feasibility study to evaluate how Pocket Skills could help people engage with their DBT and manage their mental health conditions.  For more details, please <a href="https://doi.org/10.1145/3173574.3173972">see our paper</a>.
+        <p>As an intern at Microsoft Research, I worked with Mary Czerwinski to help develop and evaluate Pocket Skills, an app designed to provide holistic support for Dialectical Behavioral Therapy (DBT).  DBT is a type of behavioral therapy designed to treat complex, difficult-to-treat disorders and suicidal ideation.  We aimed to support people in learning, practicing, and implementing DBT skills to help them solve problems, maintain relationships, and navigate negative events and emotions. I joined the project after some initial formative work and development had already taken place, collaborating with HCI experts, clinical psychologists, and mobile app designers and developers to help adapt some skills from the DBT skills training manual and workbooks into app content.  I then conducted a feasibility study to evaluate how Pocket Skills could help people engage with their DBT and manage their mental health conditions.  For more details, please <a href="https://doi.org/10.1145/3173574.3173972">see our paper</a>.
         </p>
 
   
 
-        <h5>Irritable Bowel Syndrome (IBS): Supporting Trigger Identification
+        <h3>Irritable Bowel Syndrome (IBS): Supporting Trigger Identification
           <img class="projectPic" src="website/resources/ibs.png" alt="IBS Icon">
-        </h5>
+        </h3>
 
         <p>My earlier work focused on supporting IBS trigger identification. People with IBS experience gastrointestinal symptoms that are often caused by personalized food triggers (i.e., different foods are more or less problematic for different individuals).  Providers often advise people with IBS to record their food and symptoms in journals to attempt to find correlations, but lack the time and tools necessary to interpret the resulting data. I worked with a multidisciplinary team of health and technology researchers to investigate how to help people with IBS and health providers identify personalized IBS triggers.  We aimed to support lower-burden data collection; actionable data interpretation; and patient-provider collaboration.</p>
 
-        My investigation of supporting trigger identification has involved a number of projects, in which I:
+        My investigation of supporting trigger identification has involved a number of projects:
 
-        <div class="list">
-          <p>
-            developed analyses to identify correlations between an individual’s nutrients and symptoms from a food and symptom journal (<a href="http://doi.org/10.1038/ctg.2016.9">see our paper</a>);
-          </p>
-          <p>
-            designed, developed, and evaluated interactive visualizations to help people and health providers explore relationships between the foods they eat, the nutrients those foods contain, and the symptoms that were correlated with those nutrients (<a href="https://doi.org/10.1145/2998181.2998276">see our paper</a>); 
-          </p>
-          <p>
-            collaborated in a project a colleague led to design, develop, and evaluate an app that supports self-experimentation, or scientifically rigorous n-of-1 experiments people can perform to determine causality between an trigger and subsequent symptoms (<a href="https://doi.org/10.1145/3025453.3025480">see our paper</a>); 
-          </p>
-          <p>
-            proposed analyzing self-experimentation data via Bayesian methods, which could allow us to better answer the types of questions people often have for their self-experimentation data (<a href="http://doi.org/10.1007/s41666-018-0033-x">see our paper</a>); 
-          </p>
-          <p>
-            collaborated in a project a colleague led to design, develop, and evaluate a system that supports taking photos of food; augmenting those photos with lightweight manual tracking; and visualizing the data, via our previously-developed visualizations and new ones (paper to appear).
-          </p>
-        </div>
+        <ul class="fa-ul">
+          <li class="list"><span class="fa-li"><i class="fas fa-angle-right"></i></span>
+            I developed analyses to identify correlations between an individual’s nutrients and symptoms from a food and symptom journal (<a href="http://doi.org/10.1038/ctg.2016.9">see our paper</a>)
+          </li>
+          <li class="list"><span class="fa-li"><i class="fas fa-angle-right"></i></span>
+            I designed, developed, and evaluated interactive visualizations to help people and health providers explore relationships between the foods they eat, the nutrients those foods contain, and the symptoms that were correlated with those nutrients (<a href="https://doi.org/10.1145/2998181.2998276">see our paper</a>)
+          </li>
+          <li class="list"><span class="fa-li"><i class="fas fa-angle-right"></i></span>
+            I collaborated in a project a colleague led to design, develop, and evaluate an app that supports self-experimentation, or scientifically rigorous n-of-1 experiments people can perform to determine causality between an trigger and subsequent symptoms (<a href="https://doi.org/10.1145/3025453.3025480">see our paper</a>)
+          </il>
+          <li class="list"><span class="fa-li"><i class="fas fa-angle-right"></i></span>
+            I proposed analyzing self-experimentation data via Bayesian methods, which could allow us to better answer the types of questions people often have for their self-experimentation data (<a href="http://doi.org/10.1007/s41666-018-0033-x">see our paper</a>)
+          </li>
+          <li class="list"><span class="fa-li"><i class="fas fa-angle-right"></i></span>
+            I collaborated in a project a colleague led to design, develop, and evaluate a system that supports taking photos of food; augmenting those photos with lightweight manual tracking; and visualizing the data, via our previously-developed visualizations and new ones (paper to appear)
+          </li>
+        </ul>
 
-        <h4>More Information</h4>
+        <h2>More Information</h2>
         <p class="last">Please see my <a href="https://scholar.google.com/citations?user=HuOI2NYAAAAJ&hl=en">Google Scholar</a> and <a href="https://www.linkedin.com/in/jesscs/">LinkedIn</a> pages.  I also have a <a href="https://github.com/jesscs">Github</a> page, but due to confidentiality concerns some projects are private.</p>
       </div>
 
