@@ -15,7 +15,7 @@
         "venue": "UbiComp",
         "select": true,
         "toAppear": true, 
-        "link": "https://doi.org/10.1145/3314394",
+        // "link": "https://doi.org/10.1145/3314394",
         "pdf": "ubicomp19"
     }
   ], 
