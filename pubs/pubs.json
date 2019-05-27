@@ -242,6 +242,24 @@
     ]
   },
   "Workshop and Symposium Papers and Posters": {
+    "2019": [
+      {
+        "title": "Examining Self-Tracking by People with Migraine: Goals, Needs, and Opportunities in a Chronic Health Condition",
+        "authorsBefore": [],
+        "authorsAfter": [
+          "Chia-Fang Chung",
+          "Daniel A. Epstein",
+          "Ravi Karkar",
+          "Adele Parsons",
+          "Natalia Murinova",
+          "James Fogarty",
+          "Sean A. Munson"
+        ],
+        "venue": "CHI Symposium: Workshop on Interactive Systems in Healthcare",
+        "pdf": "wish19",
+        "select": false
+      }
+    ],
     "2018": [
         {
         "title": "Needs, Challenges, and Opportunities in Long-Term Tracking to Support Migraine Management",
