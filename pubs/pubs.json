@@ -12,7 +12,8 @@
         ],
         "venue": "UbiComp",
         "select": true,
-        "toAppear": true
+        "toAppear": true,
+        "pdf": "ubicomp20"
     }
   ], 
   "2019": [
@@ -267,6 +268,7 @@
           "Sean A. Munson"
         ],
         "venue": "CSCW Workshop: Identifying Challenges and Opportunities in Human–AI Collaboration in Healthcare",
+        "pdf": "AIAndHealth19",
         "select": false
       },
       {
