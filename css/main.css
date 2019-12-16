@@ -45,7 +45,6 @@ html, body {
     padding-right: 3%;
     padding-top:1%;
     /*margin-top:0.5em;*/
-
 }
 
 .firstResearch {
@@ -226,6 +225,12 @@ h4{
   flex: 1;
   height: 100%;
   overflow:hidden;
+}
+
+#cvText p{ 
+  margin-top:-0.15em;
+  padding-right:3%;
+  font-size: 14pt;
 }
 
 #about p{ 
