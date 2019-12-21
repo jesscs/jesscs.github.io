@@ -3,27 +3,51 @@ html, body {
   margin: 0
 }
 
-.iconList{
-  padding-bottom:0.2em;
-}
+
 
 .h5{
   float:left;
 }
 
-.projectPic{
-  /*float:right;*/
-  max-height: 8vh;
+.projectHeader{
+  padding-top:1vh;
+  max-width: 85vw;
+  display: flex; 
   vertical-align: middle;
-  position: relative;
-  top: -3px;
-  max-width: 10vw;
-  padding-left:1vw;
+  /*max-height: 8vh;*/
+}
+
+.projectHeaderText{
+  max-width: 70vw;
+  float:left;
+  vertical-align: middle;
+  margin-top: auto; /* Important */
+  margin-bottom: auto; /* Important */
+}
+
+.projectPic{
+  max-width: 14vw;
+  max-height: 7vh;
+  float:left;
+  vertical-align: middle;
+  padding-left:2vw;
+}
+
+.iconList{
+  padding:0 0 1.75% 0;
+  display: flex; 
 }
 
 .iconPar{
-  padding-top:1%;
-  padding-left: 11vw;
+  margin-left: 2%;
+  margin-top: auto; /* Important */
+  margin-bottom: auto; /* Important */
+}
+
+.icon{
+  max-width: 10vw;
+  max-height: 7vh;
+  float: left;
 }
 
 #photoDiv {
@@ -62,10 +86,7 @@ html, body {
   font-family: Arial, serif;
 }
 
-.icon{
-  width: 10vw;
-  float:left;
-}
+
 
 .last{
   padding-bottom: 1em;
@@ -260,12 +281,14 @@ h2 {
     font-family: Arial, serif;
     font-weight: 100;
     font-size: 95%;
+    line-height: 1.5;
 }
 
 .authors {
     font-family: Arial, serif;
     font-weight: 300;
     font-size: 90%;
+    line-height: 1.5;
 }
 
 h5 {
@@ -274,6 +297,13 @@ h5 {
     margin-bottom:1%;
     font-size: 110%;
     font-weight:150;
+}
+
+.pubTitle {
+    font-family: Arial, serif;
+    font-weight: bold;
+    font-size: 100%;
+    line-height: 1.5;
 }
 
 .title {
@@ -287,5 +317,6 @@ h5 {
     font-style: italic;
     color: #5555A9;
     font-size: 80%;
+    line-height: 1.5;
 }
 

@@ -75,7 +75,7 @@ function getLinks(pub){
 
 function addPub(contentDiv, pub, year){
     var pubDiv = contentDiv.append("div").attr("class","less-spacing");
-    pubDiv.append("div").attr("class","title").text(pub["title"]);
+    pubDiv.append("div").attr("class","pubTitle").text(pub["title"]);
     pubDiv.append("div").attr("class","authors").html(getAuthors(pub));
     pubDiv.append("div").attr("class","venue").html(getVenue(pub, year));
     if("award" in pub){
