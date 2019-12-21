@@ -26,8 +26,8 @@ html, body {
 }
 
 .projectPic{
-  /*max-width: 14vw;*/
-  max-height: 7vh;
+  max-width: 10.5vw;
+  /*max-height: 7vh;*/
   float:left;
   vertical-align: middle;
   padding-left:2vw;
@@ -47,8 +47,8 @@ html, body {
 }
 
 .icon{
-  /*max-width: 10vw;*/
-  max-height: 7vh;
+  max-width: 10.5vw;
+  /*max-height: 7vh;*/
   float: left;
   margin-top: auto; /* Important */
   margin-bottom: auto; /* Important */
