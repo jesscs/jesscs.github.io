@@ -26,15 +26,17 @@ html, body {
 }
 
 .projectPic{
-  max-width: 14vw;
+  /*max-width: 14vw;*/
   max-height: 7vh;
   float:left;
   vertical-align: middle;
   padding-left:2vw;
+  margin-top: auto; /* Important */
+  margin-bottom: auto; /* Important */
 }
 
 .iconList{
-  padding:0 0 1.75% 0;
+  padding:0 0 2% 0;
   display: flex; 
 }
 
@@ -45,9 +47,11 @@ html, body {
 }
 
 .icon{
-  max-width: 10vw;
+  /*max-width: 10vw;*/
   max-height: 7vh;
   float: left;
+  margin-top: auto; /* Important */
+  margin-bottom: auto; /* Important */
 }
 
 #photoDiv {
