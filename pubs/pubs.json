@@ -190,7 +190,7 @@
         "venue": "Neurogastroenterology and Motility",
         "link": "http://doi.org/10.1111/nmo.12935",
         "toAppear": false,
-        "select": true
+        "select": false
       },
       {
         "title": "Feasibility and Usability Pilot Study of a Novel Irritable Bowel Syndrome Food and Gastrointestinal Symptom Journal Smartphone App",
@@ -208,7 +208,7 @@
         "venue": "Clinical and Translational Gastroenterology",
         "link": "http://doi.org/10.1038/ctg.2016.9",
         "toAppear": false,
-        "select": true
+        "select": false
       }
     ],
     "2014": [

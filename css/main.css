@@ -4,6 +4,9 @@ html, body {
 }
 
 
+.boldedText{
+  font-weight:bold;
+}
 
 .h5{
   float:left;
@@ -93,7 +96,7 @@ html, body {
 
 
 .last{
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 
 
@@ -319,8 +322,9 @@ h5 {
 .award {
     font-family: Arial, serif;
     font-style: italic;
+    font-weight: bold;
     color: #5555A9;
-    font-size: 80%;
+    font-size: 90%;
     line-height: 1.5;
 }
 
