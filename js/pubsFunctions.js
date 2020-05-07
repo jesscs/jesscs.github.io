@@ -54,7 +54,7 @@ function getVenue(pub, year){
 function getLinks(pub){
     var linkString = "";
     if("pdf" in pub){
-        linkString +='<a href="website/pubs/pdfs/' +
+        linkString +='<a href="pubs/pdfs/' +
             pub["pdf"] + '.pdf"><strong>PDF</strong></a>';
     }
     if("link" in pub){
@@ -114,7 +114,7 @@ function addAllPubs(pubs){
 
 // Load the publications
 function loadData() {
-    d3.json("website/pubs/pubs.json", function(error, pubs) {
+    d3.json("pubs/pubs.json", function(error, pubs) {
         addAllPubs(pubs);
     });
 }
