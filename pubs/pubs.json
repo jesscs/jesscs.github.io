@@ -1,6 +1,23 @@
 { "Conference and Journal Publications": {
   "2020": [
     {
+        "title": "The Importance of Starting with Goals in N-of-1 Studies",
+        "authorsBefore": [
+          "Sean A Munson"
+        ],
+        "authorsAfter": [
+          "Ravi Karkar",
+          "Julie A Kientz",
+          "Chia-Fang Chung",
+          "James Fogarty"
+        ],
+        "venue": "Frontiers Digital Health",
+        "select": true,
+        "toAppear": false,
+        "link": "https://doi.org/10.3389/fdgth.2020.00003",
+        "pdf": "FDH20"
+    },
+    {
         "title": "Data-Driven Implications for Translating Evidence-Based Psychotherapies into Technology-Delivered Interventions",
         "authorsBefore": [
         ],
