@@ -15,6 +15,23 @@
         "venue": "PervasiveHealth",
         "select": true,
         "toAppear": true,
+        "pdf": "FDH20"
+    },
+    {
+        "title": "Data-Driven Implications for Translating Evidence-Based Psychotherapies into Technology-Delivered Interventions",
+        "authorsBefore": [
+        ],
+        "authorsAfter": [
+          "Jina Suh",
+          "Chelsey Wilks",
+          "Mary Czerwinski",
+          "Sean A. Munson",
+          "James Fogarty",
+          "Tim Althoff"
+        ],
+        "venue": "PervasiveHealth",
+        "select": true,
+        "toAppear": true,
         "pdf": "ph20"
     },
     {
