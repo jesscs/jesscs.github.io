@@ -1,6 +1,14 @@
 { "Conference and Journal Publications": {
   "2020": [
     {
+        "title": "Goal-Directed Self-Tracking in the Management of Chronic Health Conditions",
+        "authorsBefore": [],
+        "authorsAfter": [],
+        "venue": "Ph.D. Dissertation: Computer Science & Engineering, University of Washington",
+        "select": true,
+        "pdf": "thesis"
+    },
+    {
         "title": "The Importance of Starting with Goals in N-of-1 Studies",
         "authorsBefore": [
           "Sean A. Munson"
