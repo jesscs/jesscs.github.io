@@ -39,7 +39,8 @@
         ],
         "venue": "PervasiveHealth",
         "select": true,
-        "toAppear": true,
+        "toAppear": false,
+        "link": "https://doi.org/10.1145/3421937.3421975",
         "pdf": "ph20"
     },
     {
