@@ -1,4 +1,16 @@
 { "Conference and Journal Publications": {
+  "2021": [
+    {
+        "title": "“They don’t always think about that”: Translational Needs in the Design of Personal Health Informatics Applications",
+        "authorsBefore": ["Susanne Kirchner"],
+        "authorsAfter": ["James Fogarty", 
+          "Sean A. Munson"
+          ],
+        "venue": "CHI",
+        "select": true,
+        "link": "https://doi.org/10.1145/3411764.3445587",
+        "pdf": "chi21"}, 
+  ],
   "2020": [
     {
         "title": "Goal-Directed Self-Tracking in the Management of Chronic Health Conditions",
