@@ -1,6 +1,16 @@
 { "Conference and Journal Publications": {
   "2021": [
     {
+        "title": "Understanding and Supporting Self Tracking App Selection",
+        "authorsBefore": ["Jong Ho Lee"],
+        "authorsAfter": ["Daniel A. Epstein"
+          ],
+        "venue": "UbiComp",
+        "select": true,
+        "toAppear": true,
+        "pdf": "ubicomp21"
+    }
+    {
         "title": "“They don’t always think about that”: Translational Needs in the Design of Personal Health Informatics Applications",
         "authorsBefore": ["Susanne Kirchner"],
         "authorsAfter": ["James Fogarty", 
