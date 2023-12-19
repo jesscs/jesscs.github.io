@@ -6,7 +6,8 @@
         "authorsAfter": ["Daniel A. Epstein"],
         "venue": "UbiComp",
         "select": true,
-        "toAppear": true,
+        "toAppear": false,
+        "link": "https://doi.org/10.1145/3494980",
         "pdf": "ubicomp21"
     },
     {
